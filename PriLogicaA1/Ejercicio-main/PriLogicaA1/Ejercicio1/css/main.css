@@ -1,0 +1,40 @@
+body{
+    background-color: #115ca1;
+    color:rgb(224, 205, 120);
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    color:rgb(31, 163, 19);
+    font-size: 35px;
+    
+ }
+.opcion{
+    display: block;
+    text-align: center;
+    width:350px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    color:rgb(109, 4, 13);
+    text-decoration: none;
+    font-weight: bold;
+    cursor:pointer ;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-image: linear-gradient(to right top, #096cff, #004d7a, #008793, #00bf72, #a8eb12);
+}
+.opcion:hover{
+    background-image: linear-gradient(to right top, #940d82, #2523c9, #1bad70, #28d8c1, #eb1248);
+}
